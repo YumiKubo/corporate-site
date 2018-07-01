@@ -480,8 +480,6 @@ h1{
 h2{
   font-size: 15px;
   font-weight: 400px;
-  line-height: 40px;
-
 }
 
 
@@ -528,18 +526,21 @@ h3{
   padding-bottom: 70px;
   
 }
-  
+
 #contents #main h2 {
   
   font-size: 2rem;
   padding-bottom: 20px;
   color: #42b9d0;
-  font-weight: bold;
   border-bottom: 3px solid #42b9d0;
+  font-weight: bold;
+  
+.company_title{
+  margin-bottom:0px;
+}
   
 }
-
-
+  
 
 .news_li li {
     list-style: none;
@@ -569,6 +570,10 @@ h3{
   margin-bottom: 0px;
   padding: 10px 10px 10px 20px;
   background-size: 4px 8px;
+  
+  a {
+    text-decoration: none;
+}
 
  }
 
@@ -621,6 +626,10 @@ h3{
   font-weight: bold;
   border-bottom: 3px solid #42b9d0;
   
+.company_title{
+  margin-bottom:0px;
+}
+  
 }
 
 #contents #main 
@@ -644,6 +653,8 @@ h3{
   margin-bottom: 3px;
   
 }
+
+
 
 #contents #sidebar {
   
@@ -670,12 +681,6 @@ h3{
 
 //ここから会社概要
 
-#contents #main h2
-
-.company_title {
-  margin-bottom: 0px;
-}
-
 #contents #main th {
   padding-right: 20px;
 }
@@ -686,5 +691,4 @@ h3{
   font-size: 14px;
   font-size: 1.4rem;
 }
-
 
